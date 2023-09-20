@@ -1,11 +1,8 @@
-/*
- * INSTRUCTION:
- *     This is a C++ starting code for hw3_2.
- *     When you finish the development, download this file.
- *     Note that the current filename is "main.cpp".
- *     But rename it to "main_hw3_2.cpp".
- *     After that, upload the renamed file on Canvas.
- */
+#include <algorithm>
+#include <climits>
+#include <iostream>
+#include <vector>
+using namespace std;
 
 /*
  * Title: main_hw3_2.cpp
@@ -13,13 +10,7 @@
  * visiting every other city once and then back to the starting edge.
  * Name: Brandon Hazelton
  * Date: 09-18-2023
- */
-
-#include <algorithm>
-#include <climits>
-#include <iostream>
-#include <vector>
-using namespace std;
+*/
 
 class TSP {
 	vector<vector<unsigned int>> adj_matrix = {};

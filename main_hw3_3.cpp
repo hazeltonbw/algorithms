@@ -1,9 +1,15 @@
 #include <iostream>
-#include <algorithm>
-#include <stack>
 #include <vector>
-
 using namespace std;
+
+/*
+ * Title: main_hw3_1.cpp
+ * Abstract: Depth First Search of Integers 
+ * using an implicit stack and a mark array
+ * to note the path taken
+ * Name: Brandon Hazelton 
+ * Date: 09-19-2023
+*/
 
 class Graph {
 	vector<size_t> mark;
@@ -71,7 +77,6 @@ int main() {
 	cin >> num_verts;
 	size_t num_edges = 0;
 	cin >> num_edges;
-
 
 	Graph graph = Graph(num_verts,num_edges);
 }
